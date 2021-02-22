@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Arial', sans-serif;
+}
+
+
+p{
+	font-size: 35px;
+}
+p:hover {
+	text-transform: uppercase;
+	background: yellow;
+	letter-spacing: 4px;
+	font-size: 50px;
+}
+
+.camera {
+	position: relative;
+	width: 800px;
+	height: 600px;
+	background: black;
+}
+
+
+.square {
+	width: 100px;
+	height: 100px;
+	background: grey;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+
+.square:hover {
+	transform: rotate(45deg);
+	filter: blur(10px);
+	background: yellow;
+}
+
+.square2 {
+	width: 100px;
+	height: 30px;
+	background: grey;
+	position: absolute;
+	top: 40px;
+	left: 170px;
+}
+
+.square2:hover {
+	transform: translateX(100px);
+	background: green;
+}
+.circle {
+	width: 350px;
+	height: 350px;
+	border-radius: 250px;
+	background: grey;
+	position: absolute;
+	top: 150px;
+	left: 200px;
+}
+.circle2 {
+	width: 250px;
+	height: 250px;
+	border-radius: 150px;
+	background: white;
+	position: absolute;
+	top: 200px;
+	left: 250px;
+} 
+
+.circle3 {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	background: grey;
+	position: absolute;
+	top: 225px;
+	left: 275px;
+	opacity: 5%;
+}
+
+.circle3:hover {
+	opacity: 100%;
+	transition: opacity 0.8s
+}
